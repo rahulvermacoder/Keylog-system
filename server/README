@@ -1,0 +1,19 @@
+how its work:
+now:   
+    in attacker machine:
+        python your_server.py run this in new terminal and in another 2nd terminal use ngrok http 5000 and run
+then:
+    in victim machine:  
+        setup keylog file whose connected with ngrok public url
+        url : for example <your_auth_token>=> https://467b-2404-7c80-4c-e86e-6568-ac53-59a2-af68.ngrok-free.app/upload
+        and send it
+        then install and run from victim
+        and keylog file will send by tunnel in mine
+
+installation:
+    1. install pynput
+    2. install requests
+    3. install ngrok and setup it
+    4. and sign up and use authtoken 
+    5. authtoken: ngrok authtoken <your_auth_token>
+
